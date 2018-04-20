@@ -19,7 +19,13 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
-        "styles.css"
+        "styles.css",
+        "../node_modules/ht-angular/src/styles/bulma.scss",
+         "../node_modules/ht-angular/src/styles/global.scss",
+         "../node_modules/ht-angular/src/styles/placeholder.scss",
+        "../node_modules/font-awesome/css/font-awesome.css",
+        "../node_modules/leaflet.markercluster/dist/MarkerCluster.css",
+        "../node_modules/leaflet.markercluster/dist/MarkerCluster.Default.css"
       ],
       "scripts": [],
       "environmentSource": "environments/environment.ts",
